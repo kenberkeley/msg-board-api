@@ -5,7 +5,8 @@
   "version": "0.1.0",
   "scripts": {
     "start": "node bin/start.js",
-    "test": "mocha test/"
+    "test": "mocha test/",
+    "test-travis": "istanbul cover _mocha"
   },
   "dependencies": {
     "body-parser": "~1.13.2",

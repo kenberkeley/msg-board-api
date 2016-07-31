@@ -1,4 +1,7 @@
 # Message Board RESTful API
+[![build status][travis-image]][travis-url]
+[![Dependency Status][dep-image]][dep-url]
+[![Coverage Status][cov-img]][cov-url]
 
 ## Features
 > More Detail in `package.json`  
@@ -67,3 +70,10 @@ $ npm start
 $ npm test
 ...
 ```
+
+[travis-image]: https://secure.travis-ci.org/kenberkeley/msg-board-api.svg?branch=master
+[travis-url]: https://travis-ci.org/kenberkeley/msg-board-api
+[dep-image]: http://david-dm.org/kenberkeley/msg-board-api.svg?style=flat-square
+[dep-url]: http://david-dm.org/kenberkeley/msg-board-api
+[cov-img]: https://coveralls.io/repos/github/kenberkeley/msg-board-api/badge.svg?branch=master
+[cov-url]: https://coveralls.io/github/kenberkeley/msg-board-api?branch=master
