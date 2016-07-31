@@ -1,4 +1,4 @@
-# 留言板 RESTful API
+# 简易留言板 RESTful API
 [![build status][travis-image]][travis-url]
 [![Dependency Status][dep-image]][dep-url]
 [![Coverage Status][cov-img]][cov-url]
