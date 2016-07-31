@@ -1,4 +1,4 @@
-# Message Board RESTful API
+# A Simple Message Board RESTful API
 [![build status][travis-image]][travis-url]
 [![Dependency Status][dep-image]][dep-url]
 [![Coverage Status][cov-img]][cov-url]
