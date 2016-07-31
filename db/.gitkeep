@@ -1,0 +1,15 @@
+JSON format:
+
+# A message example:
+{
+  "id":"4d48e8d0",
+  "time":1465291755485,
+  "author":"ken",
+  "title":"hello world",
+  "content":"welcome to msg-board-api"
+}
+
+# A session example:
+{
+  "username": "ken"
+}
