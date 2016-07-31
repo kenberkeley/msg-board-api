@@ -12,7 +12,7 @@ exports.post = {
       return next({ _msg: 'invalid username' });
     }
 
-    userService.login({ username });
-    res.json({ username });
+    userService.login({ username: username });
+    res.json({ username: username });
   }
 };
