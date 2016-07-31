@@ -13,6 +13,12 @@
 
 ****
 
+## Requirements
+* Node >= 4
+* NPM >= 3
+
+****
+
 ## Getting Start
 ```
 $ git clone https://github.com/kenberkeley/msg-board-api.git
