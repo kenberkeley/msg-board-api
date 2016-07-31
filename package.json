@@ -12,7 +12,7 @@
     "body-parser": "~1.13.2",
     "cookie-parser": "~1.3.5",
     "express": "~4.13.1",
-    "express-auto-routes": "^2.0.0",
+    "express-auto-routes": "^2.2.0",
     "lodash": "^4.13.1",
     "node-uuid": "^1.4.7"
   },

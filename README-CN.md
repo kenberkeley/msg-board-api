@@ -1,27 +1,25 @@
-# Message Board RESTful API
+# 留言板 RESTful API
 [![build status][travis-image]][travis-url]
 [![Dependency Status][dep-image]][dep-url]
 [![Coverage Status][cov-img]][cov-url]
 
-> 中文介绍点击 [这里](./README-CN.md)
-
-## Features
-> More Detail in `package.json`  
+## 主要用到的 Package
+> 更多信息请看 `package.json`  
   
 * [Express 4.x](https://github.com/expressjs/express)
-* [Express Auto Routes](https://github.com/kenberkeley/express-auto-routes)
+* [Express Auto Routes](https://github.com/kenberkeley/express-auto-routes)（自动路由）
 * [Lodash](https://github.com/lodash/lodash)
 * [UUID](https://github.com/broofa/node-uuid)
 
 ****
 
-## Requirements
+## 环境要求
 * Node ≥ 4
 * NPM ≥ 3
 
 ****
 
-## Getting Start
+## 快速开始
 ```
 $ git clone https://github.com/kenberkeley/msg-board-api.git
 $ cd msg-board-api
@@ -44,13 +42,13 @@ $ npm start
 ****
 
 ## APIs
-> Showed as above
+> 见上
 
 ****
 
-## JSON Format
+## JSON 数据格式
 ```
-# A message example:
+# 一个信息：
 {
   "id":"4d48e8d0",
   "time":1465291755485,
@@ -59,7 +57,7 @@ $ npm start
   "content":"welcome to msg-board-api"
 }
 
-# A session example:
+# 用户 session：
 {
   "username": "ken"
 }
@@ -69,9 +67,9 @@ $ npm start
 ****
 
 
-## Testing
-> Make sure [mocha](https://github.com/mochajs/mocha) available globally.  
-> If not, `npm i mocha -g`
+## 测试
+> 请确认 [mocha](https://github.com/mochajs/mocha) 全局安装  
+> 若无, `npm i mocha -g`
 
 ```
 $ npm test
