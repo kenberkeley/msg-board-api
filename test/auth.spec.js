@@ -2,10 +2,14 @@ var request = require('supertest'),
   should = require('chai').should(),
   async = require('async'),
   app = require('../app'),
-  api = request(app);
+  api = request(app),
+  userService = require('../services/userService');
 
 describe('# User Authentication Test #', function() {
-  
+  before(function() {
+    userService.logout();
+  });
+
   describe('## Under unlogin state ##', function() {
     it('user session should be null', function(done) {
       api
