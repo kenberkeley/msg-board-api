@@ -2,7 +2,6 @@ var DbOptService = require('./DbOptService');
 
 function UserService() {}
 UserService.prototype = new DbOptService('../db/user.session');
-UserService.prototype.constructor = UserService;
 
 /**
  * @return {Object/Null} userData/null(unautherized)

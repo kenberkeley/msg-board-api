@@ -4,7 +4,6 @@ var _ = require('lodash'),
 
 function MsgService() {}
 MsgService.prototype = new DbOptService('../db/msg.json');
-MsgService.prototype.constructor = MsgService;
 
 /**
  * fetch messages with conditions
