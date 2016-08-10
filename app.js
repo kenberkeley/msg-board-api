@@ -38,4 +38,10 @@ app.use(function(err, req, res, next) {
   });
 });
 
-module.exports = app;
+if (!module.parent) {
+  var PORT = 9000;
+  console.log('[INFO] Msg board RESTful API listening at localhost:%s', PORT);
+  app.listen(PORT);
+} else {
+  module.exports = app;
+}
