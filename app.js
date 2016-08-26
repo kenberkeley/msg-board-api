@@ -39,7 +39,7 @@ app.use(function(err, req, res, next) {
 });
 
 if (!module.parent) {
-  var PORT = 9000;
+  var PORT = 8989;
   console.log('[INFO] Msg board RESTful API listening at localhost:%s', PORT);
   app.listen(PORT);
 } else {

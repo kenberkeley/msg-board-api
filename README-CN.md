@@ -36,7 +36,7 @@ $ npm start
 [AutoMount] get /user/
 [AutoMount] post /msg/
 [AutoMount] get /msg/
-[INFO] Msg board RESTful API listening at localhost:9000
+[INFO] Msg board RESTful API listening at localhost:8989
 ```
 
 ****
